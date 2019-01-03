@@ -1,0 +1,1769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List foods SNAPSHOT Component list 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListFoods
+    basketFoods={Array []}
+    foods={
+      Array [
+        Object {
+          "category": "pizza",
+          "description": "Пищевая ценность продукта на 100 г",
+          "id": 1,
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg",
+          "ingredients": Array [
+            Object {
+              "mainIngredient": true,
+              "name": "Томатный соус",
+            },
+          ],
+          "name": "Жар-Баран",
+          "price": 845,
+        },
+        Object {
+          "category": "pizza",
+          "description": "Пищевая ценность продукта на 100 г",
+          "id": 2,
+          "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg",
+          "ingredients": Array [
+            Object {
+              "mainIngredient": true,
+              "name": "Томатный соус",
+            },
+          ],
+          "name": "Сырный",
+          "price": 845,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="foods"
+          id="pizza"
+        >
+          <h2
+            className="foods_title"
+          >
+            Пицца
+          </h2>
+          <div
+            className="foods_container"
+          >
+            <div
+              className="food"
+            >
+              <div
+                className="food__image"
+              >
+                <img
+                  alt="Жар-Баран"
+                  src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                />
+              </div>
+              <div
+                className="food__name"
+              >
+                Жар-Баран
+              </div>
+              <div
+                className="food__ingredients"
+              >
+                <div
+                  className="food__ingredient"
+                >
+                  Томатный соус
+                </div>
+              </div>
+              <div
+                className="product__cart"
+              >
+                <div
+                  className="product__cart__price"
+                >
+                  845
+                   ₽
+                </div>
+                <Connect(ButtonAddToBasket)
+                  id={1}
+                />
+              </div>
+            </div>
+            <div
+              className="food"
+            >
+              <div
+                className="food__image"
+              >
+                <img
+                  alt="Сырный"
+                  src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                />
+              </div>
+              <div
+                className="food__name"
+              >
+                Сырный
+              </div>
+              <div
+                className="food__ingredients"
+              >
+                <div
+                  className="food__ingredient"
+                >
+                  Томатный соус
+                </div>
+              </div>
+              <div
+                className="product__cart"
+              >
+                <div
+                  className="product__cart__price"
+                >
+                  845
+                   ₽
+                </div>
+                <Connect(ButtonAddToBasket)
+                  id={2}
+                />
+              </div>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="foods"
+          id="snacks"
+        >
+          <h2
+            className="foods_title"
+          >
+            Закуски
+          </h2>
+          <div
+            className="foods_container"
+          />
+        </div>,
+        <div
+          className="foods"
+          id="desserts"
+        >
+          <h2
+            className="foods_title"
+          >
+            Десерты
+          </h2>
+          <div
+            className="foods_container"
+          />
+        </div>,
+        <div
+          className="foods"
+          id="drink"
+        >
+          <h2
+            className="foods_title"
+          >
+            Напитки
+          </h2>
+          <div
+            className="foods_container"
+          />
+        </div>,
+      ],
+      "className": "content",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="foods_title"
+            >
+              Пицца
+            </h2>,
+            <div
+              className="foods_container"
+            >
+              <div
+                className="food"
+              >
+                <div
+                  className="food__image"
+                >
+                  <img
+                    alt="Жар-Баран"
+                    src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                  />
+                </div>
+                <div
+                  className="food__name"
+                >
+                  Жар-Баран
+                </div>
+                <div
+                  className="food__ingredients"
+                >
+                  <div
+                    className="food__ingredient"
+                  >
+                    Томатный соус
+                  </div>
+                </div>
+                <div
+                  className="product__cart"
+                >
+                  <div
+                    className="product__cart__price"
+                  >
+                    845
+                     ₽
+                  </div>
+                  <Connect(ButtonAddToBasket)
+                    id={1}
+                  />
+                </div>
+              </div>
+              <div
+                className="food"
+              >
+                <div
+                  className="food__image"
+                >
+                  <img
+                    alt="Сырный"
+                    src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                  />
+                </div>
+                <div
+                  className="food__name"
+                >
+                  Сырный
+                </div>
+                <div
+                  className="food__ingredients"
+                >
+                  <div
+                    className="food__ingredient"
+                  >
+                    Томатный соус
+                  </div>
+                </div>
+                <div
+                  className="product__cart"
+                >
+                  <div
+                    className="product__cart__price"
+                  >
+                    845
+                     ₽
+                  </div>
+                  <Connect(ButtonAddToBasket)
+                    id={2}
+                  />
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "foods",
+          "id": "pizza",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Пицца",
+              "className": "foods_title",
+            },
+            "ref": null,
+            "rendered": "Пицца",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="food"
+                >
+                  <div
+                    className="food__image"
+                  >
+                    <img
+                      alt="Жар-Баран"
+                      src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                    />
+                  </div>
+                  <div
+                    className="food__name"
+                  >
+                    Жар-Баран
+                  </div>
+                  <div
+                    className="food__ingredients"
+                  >
+                    <div
+                      className="food__ingredient"
+                    >
+                      Томатный соус
+                    </div>
+                  </div>
+                  <div
+                    className="product__cart"
+                  >
+                    <div
+                      className="product__cart__price"
+                    >
+                      845
+                       ₽
+                    </div>
+                    <Connect(ButtonAddToBasket)
+                      id={1}
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="food"
+                >
+                  <div
+                    className="food__image"
+                  >
+                    <img
+                      alt="Сырный"
+                      src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                    />
+                  </div>
+                  <div
+                    className="food__name"
+                  >
+                    Сырный
+                  </div>
+                  <div
+                    className="food__ingredients"
+                  >
+                    <div
+                      className="food__ingredient"
+                    >
+                      Томатный соус
+                    </div>
+                  </div>
+                  <div
+                    className="product__cart"
+                  >
+                    <div
+                      className="product__cart__price"
+                    >
+                      845
+                       ₽
+                    </div>
+                    <Connect(ButtonAddToBasket)
+                      id={2}
+                    />
+                  </div>
+                </div>,
+              ],
+              "className": "foods_container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="food__image"
+                    >
+                      <img
+                        alt="Жар-Баран"
+                        src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                      />
+                    </div>,
+                    <div
+                      className="food__name"
+                    >
+                      Жар-Баран
+                    </div>,
+                    <div
+                      className="food__ingredients"
+                    >
+                      <div
+                        className="food__ingredient"
+                      >
+                        Томатный соус
+                      </div>
+                    </div>,
+                    <div
+                      className="product__cart"
+                    >
+                      <div
+                        className="product__cart__price"
+                      >
+                        845
+                         ₽
+                      </div>
+                      <Connect(ButtonAddToBasket)
+                        id={1}
+                      />
+                    </div>,
+                  ],
+                  "className": "food",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="Жар-Баран"
+                        src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                      />,
+                      "className": "food__image",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Жар-Баран",
+                        "src": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Жар-Баран",
+                      "className": "food__name",
+                    },
+                    "ref": null,
+                    "rendered": "Жар-Баран",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="food__ingredient"
+                        >
+                          Томатный соус
+                        </div>,
+                      ],
+                      "className": "food__ingredients",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Томатный соус",
+                          "className": "food__ingredient",
+                        },
+                        "ref": null,
+                        "rendered": "Томатный соус",
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="product__cart__price"
+                        >
+                          845
+                           ₽
+                        </div>,
+                        <Connect(ButtonAddToBasket)
+                          id={1}
+                        />,
+                      ],
+                      "className": "product__cart",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            845,
+                            " ₽",
+                          ],
+                          "className": "product__cart__price",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          845,
+                          " ₽",
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "id": 1,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="food__image"
+                    >
+                      <img
+                        alt="Сырный"
+                        src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                      />
+                    </div>,
+                    <div
+                      className="food__name"
+                    >
+                      Сырный
+                    </div>,
+                    <div
+                      className="food__ingredients"
+                    >
+                      <div
+                        className="food__ingredient"
+                      >
+                        Томатный соус
+                      </div>
+                    </div>,
+                    <div
+                      className="product__cart"
+                    >
+                      <div
+                        className="product__cart__price"
+                      >
+                        845
+                         ₽
+                      </div>
+                      <Connect(ButtonAddToBasket)
+                        id={2}
+                      />
+                    </div>,
+                  ],
+                  "className": "food",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="Сырный"
+                        src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                      />,
+                      "className": "food__image",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Сырный",
+                        "src": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Сырный",
+                      "className": "food__name",
+                    },
+                    "ref": null,
+                    "rendered": "Сырный",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="food__ingredient"
+                        >
+                          Томатный соус
+                        </div>,
+                      ],
+                      "className": "food__ingredients",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Томатный соус",
+                          "className": "food__ingredient",
+                        },
+                        "ref": null,
+                        "rendered": "Томатный соус",
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="product__cart__price"
+                        >
+                          845
+                           ₽
+                        </div>,
+                        <Connect(ButtonAddToBasket)
+                          id={2}
+                        />,
+                      ],
+                      "className": "product__cart",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            845,
+                            " ₽",
+                          ],
+                          "className": "product__cart__price",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          845,
+                          " ₽",
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "id": 2,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="foods_title"
+            >
+              Закуски
+            </h2>,
+            <div
+              className="foods_container"
+            />,
+          ],
+          "className": "foods",
+          "id": "snacks",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Закуски",
+              "className": "foods_title",
+            },
+            "ref": null,
+            "rendered": "Закуски",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                undefined,
+              ],
+              "className": "foods_container",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="foods_title"
+            >
+              Десерты
+            </h2>,
+            <div
+              className="foods_container"
+            />,
+          ],
+          "className": "foods",
+          "id": "desserts",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Десерты",
+              "className": "foods_title",
+            },
+            "ref": null,
+            "rendered": "Десерты",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                undefined,
+              ],
+              "className": "foods_container",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="foods_title"
+            >
+              Напитки
+            </h2>,
+            <div
+              className="foods_container"
+            />,
+          ],
+          "className": "foods",
+          "id": "drink",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Напитки",
+              "className": "foods_title",
+            },
+            "ref": null,
+            "rendered": "Напитки",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                undefined,
+              ],
+              "className": "foods_container",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="foods"
+            id="pizza"
+          >
+            <h2
+              className="foods_title"
+            >
+              Пицца
+            </h2>
+            <div
+              className="foods_container"
+            >
+              <div
+                className="food"
+              >
+                <div
+                  className="food__image"
+                >
+                  <img
+                    alt="Жар-Баран"
+                    src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                  />
+                </div>
+                <div
+                  className="food__name"
+                >
+                  Жар-Баран
+                </div>
+                <div
+                  className="food__ingredients"
+                >
+                  <div
+                    className="food__ingredient"
+                  >
+                    Томатный соус
+                  </div>
+                </div>
+                <div
+                  className="product__cart"
+                >
+                  <div
+                    className="product__cart__price"
+                  >
+                    845
+                     ₽
+                  </div>
+                  <Connect(ButtonAddToBasket)
+                    id={1}
+                  />
+                </div>
+              </div>
+              <div
+                className="food"
+              >
+                <div
+                  className="food__image"
+                >
+                  <img
+                    alt="Сырный"
+                    src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                  />
+                </div>
+                <div
+                  className="food__name"
+                >
+                  Сырный
+                </div>
+                <div
+                  className="food__ingredients"
+                >
+                  <div
+                    className="food__ingredient"
+                  >
+                    Томатный соус
+                  </div>
+                </div>
+                <div
+                  className="product__cart"
+                >
+                  <div
+                    className="product__cart__price"
+                  >
+                    845
+                     ₽
+                  </div>
+                  <Connect(ButtonAddToBasket)
+                    id={2}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="foods"
+            id="snacks"
+          >
+            <h2
+              className="foods_title"
+            >
+              Закуски
+            </h2>
+            <div
+              className="foods_container"
+            />
+          </div>,
+          <div
+            className="foods"
+            id="desserts"
+          >
+            <h2
+              className="foods_title"
+            >
+              Десерты
+            </h2>
+            <div
+              className="foods_container"
+            />
+          </div>,
+          <div
+            className="foods"
+            id="drink"
+          >
+            <h2
+              className="foods_title"
+            >
+              Напитки
+            </h2>
+            <div
+              className="foods_container"
+            />
+          </div>,
+        ],
+        "className": "content",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="foods_title"
+              >
+                Пицца
+              </h2>,
+              <div
+                className="foods_container"
+              >
+                <div
+                  className="food"
+                >
+                  <div
+                    className="food__image"
+                  >
+                    <img
+                      alt="Жар-Баран"
+                      src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                    />
+                  </div>
+                  <div
+                    className="food__name"
+                  >
+                    Жар-Баран
+                  </div>
+                  <div
+                    className="food__ingredients"
+                  >
+                    <div
+                      className="food__ingredient"
+                    >
+                      Томатный соус
+                    </div>
+                  </div>
+                  <div
+                    className="product__cart"
+                  >
+                    <div
+                      className="product__cart__price"
+                    >
+                      845
+                       ₽
+                    </div>
+                    <Connect(ButtonAddToBasket)
+                      id={1}
+                    />
+                  </div>
+                </div>
+                <div
+                  className="food"
+                >
+                  <div
+                    className="food__image"
+                  >
+                    <img
+                      alt="Сырный"
+                      src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                    />
+                  </div>
+                  <div
+                    className="food__name"
+                  >
+                    Сырный
+                  </div>
+                  <div
+                    className="food__ingredients"
+                  >
+                    <div
+                      className="food__ingredient"
+                    >
+                      Томатный соус
+                    </div>
+                  </div>
+                  <div
+                    className="product__cart"
+                  >
+                    <div
+                      className="product__cart__price"
+                    >
+                      845
+                       ₽
+                    </div>
+                    <Connect(ButtonAddToBasket)
+                      id={2}
+                    />
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "foods",
+            "id": "pizza",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Пицца",
+                "className": "foods_title",
+              },
+              "ref": null,
+              "rendered": "Пицца",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="food"
+                  >
+                    <div
+                      className="food__image"
+                    >
+                      <img
+                        alt="Жар-Баран"
+                        src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                      />
+                    </div>
+                    <div
+                      className="food__name"
+                    >
+                      Жар-Баран
+                    </div>
+                    <div
+                      className="food__ingredients"
+                    >
+                      <div
+                        className="food__ingredient"
+                      >
+                        Томатный соус
+                      </div>
+                    </div>
+                    <div
+                      className="product__cart"
+                    >
+                      <div
+                        className="product__cart__price"
+                      >
+                        845
+                         ₽
+                      </div>
+                      <Connect(ButtonAddToBasket)
+                        id={1}
+                      />
+                    </div>
+                  </div>,
+                  <div
+                    className="food"
+                  >
+                    <div
+                      className="food__image"
+                    >
+                      <img
+                        alt="Сырный"
+                        src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                      />
+                    </div>
+                    <div
+                      className="food__name"
+                    >
+                      Сырный
+                    </div>
+                    <div
+                      className="food__ingredients"
+                    >
+                      <div
+                        className="food__ingredient"
+                      >
+                        Томатный соус
+                      </div>
+                    </div>
+                    <div
+                      className="product__cart"
+                    >
+                      <div
+                        className="product__cart__price"
+                      >
+                        845
+                         ₽
+                      </div>
+                      <Connect(ButtonAddToBasket)
+                        id={2}
+                      />
+                    </div>
+                  </div>,
+                ],
+                "className": "foods_container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="food__image"
+                      >
+                        <img
+                          alt="Жар-Баран"
+                          src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                        />
+                      </div>,
+                      <div
+                        className="food__name"
+                      >
+                        Жар-Баран
+                      </div>,
+                      <div
+                        className="food__ingredients"
+                      >
+                        <div
+                          className="food__ingredient"
+                        >
+                          Томатный соус
+                        </div>
+                      </div>,
+                      <div
+                        className="product__cart"
+                      >
+                        <div
+                          className="product__cart__price"
+                        >
+                          845
+                           ₽
+                        </div>
+                        <Connect(ButtonAddToBasket)
+                          id={1}
+                        />
+                      </div>,
+                    ],
+                    "className": "food",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <img
+                          alt="Жар-Баран"
+                          src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                        />,
+                        "className": "food__image",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Жар-Баран",
+                          "src": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Жар-Баран",
+                        "className": "food__name",
+                      },
+                      "ref": null,
+                      "rendered": "Жар-Баран",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="food__ingredient"
+                          >
+                            Томатный соус
+                          </div>,
+                        ],
+                        "className": "food__ingredients",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Томатный соус",
+                            "className": "food__ingredient",
+                          },
+                          "ref": null,
+                          "rendered": "Томатный соус",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="product__cart__price"
+                          >
+                            845
+                             ₽
+                          </div>,
+                          <Connect(ButtonAddToBasket)
+                            id={1}
+                          />,
+                        ],
+                        "className": "product__cart",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              845,
+                              " ₽",
+                            ],
+                            "className": "product__cart__price",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            845,
+                            " ₽",
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "id": 1,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="food__image"
+                      >
+                        <img
+                          alt="Сырный"
+                          src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                        />
+                      </div>,
+                      <div
+                        className="food__name"
+                      >
+                        Сырный
+                      </div>,
+                      <div
+                        className="food__ingredients"
+                      >
+                        <div
+                          className="food__ingredient"
+                        >
+                          Томатный соус
+                        </div>
+                      </div>,
+                      <div
+                        className="product__cart"
+                      >
+                        <div
+                          className="product__cart__price"
+                        >
+                          845
+                           ₽
+                        </div>
+                        <Connect(ButtonAddToBasket)
+                          id={2}
+                        />
+                      </div>,
+                    ],
+                    "className": "food",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <img
+                          alt="Сырный"
+                          src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                        />,
+                        "className": "food__image",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Сырный",
+                          "src": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Сырный",
+                        "className": "food__name",
+                      },
+                      "ref": null,
+                      "rendered": "Сырный",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="food__ingredient"
+                          >
+                            Томатный соус
+                          </div>,
+                        ],
+                        "className": "food__ingredients",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Томатный соус",
+                            "className": "food__ingredient",
+                          },
+                          "ref": null,
+                          "rendered": "Томатный соус",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="product__cart__price"
+                          >
+                            845
+                             ₽
+                          </div>,
+                          <Connect(ButtonAddToBasket)
+                            id={2}
+                          />,
+                        ],
+                        "className": "product__cart",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              845,
+                              " ₽",
+                            ],
+                            "className": "product__cart__price",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            845,
+                            " ₽",
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "id": 2,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="foods_title"
+              >
+                Закуски
+              </h2>,
+              <div
+                className="foods_container"
+              />,
+            ],
+            "className": "foods",
+            "id": "snacks",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Закуски",
+                "className": "foods_title",
+              },
+              "ref": null,
+              "rendered": "Закуски",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  undefined,
+                ],
+                "className": "foods_container",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="foods_title"
+              >
+                Десерты
+              </h2>,
+              <div
+                className="foods_container"
+              />,
+            ],
+            "className": "foods",
+            "id": "desserts",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Десерты",
+                "className": "foods_title",
+              },
+              "ref": null,
+              "rendered": "Десерты",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  undefined,
+                ],
+                "className": "foods_container",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="foods_title"
+              >
+                Напитки
+              </h2>,
+              <div
+                className="foods_container"
+              />,
+            ],
+            "className": "foods",
+            "id": "drink",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Напитки",
+                "className": "foods_title",
+              },
+              "ref": null,
+              "rendered": "Напитки",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  undefined,
+                ],
+                "className": "foods_container",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

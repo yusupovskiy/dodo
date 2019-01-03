@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the add food to basket button Buttons to increase or decrease the count of foods, 
+      if the basket has already added this food 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ButtonAddToBasket
+    basketFoods={
+      Array [
+        Object {
+          "count": 1,
+          "id": 1,
+        },
+      ]
+    }
+    foods={
+      Array [
+        Object {
+          "category": "pizza",
+          "id": 1,
+        },
+      ]
+    }
+    id={1}
+    selectFood={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="btn__decrease btn__count"
+          onClick={[Function]}
+        >
+          -
+        </div>,
+        <div
+          className="text__count"
+        >
+          1
+        </div>,
+        <div
+          className="btn__increase btn__count"
+          onClick={[Function]}
+        >
+          +
+        </div>,
+      ],
+      "className": "panel__count",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "-",
+          "className": "btn__decrease btn__count",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "-",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 1,
+          "className": "text__count",
+        },
+        "ref": null,
+        "rendered": 1,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "+",
+          "className": "btn__increase btn__count",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "+",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="btn__decrease btn__count"
+            onClick={[Function]}
+          >
+            -
+          </div>,
+          <div
+            className="text__count"
+          >
+            1
+          </div>,
+          <div
+            className="btn__increase btn__count"
+            onClick={[Function]}
+          >
+            +
+          </div>,
+        ],
+        "className": "panel__count",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "-",
+            "className": "btn__decrease btn__count",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "-",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 1,
+            "className": "text__count",
+          },
+          "ref": null,
+          "rendered": 1,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "+",
+            "className": "btn__increase btn__count",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "+",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
