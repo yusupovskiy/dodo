@@ -9,8 +9,8 @@ export class ListBasketFoods extends Component {
   showList() {
     if(this.props.basketFoods !== undefined && this.props.basketFoods.length > 0) {
       return this.props.basketFoods.map( basketFood => {
-        const indexFood = this.props.foods.findIndex(f => f.id === basketFood.id),
-              food = this.props.foods[indexFood];
+        const indexFood = this.props.foods.findIndex(f => f.id === basketFood.id);
+        const food = this.props.foods[indexFood];
 
         return (
           <li key={ basketFood.id } className="item-basket">
